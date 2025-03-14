@@ -216,7 +216,7 @@ def crawl_youtube_messages():
             except Exception as e:
                 update_status(f"爬取 YouTube 消息失败：{e}")
 
-            time.sleep(15)
+            time.sleep(1)
 
 def generate_id():
     # 从 "msg_002" 开始递增生成 ID
